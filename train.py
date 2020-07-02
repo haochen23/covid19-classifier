@@ -79,7 +79,7 @@ if __name__ == "__main__":
     best_val_auc = -1
 
     #model checkpoint
-    filepath_acc = "covid_weights_val_acc.hdf5"
+    filepath_acc = "output_weights/covid_weights_val_acc.hdf5"
     checkpoint_acc = ModelCheckpoint(filepath_acc, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
     model.compile(loss='binary_crossentropy', optimizer=Adam(lr=0.0003), metrics=["acc"])
     
