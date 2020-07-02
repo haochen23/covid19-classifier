@@ -1,0 +1,9 @@
+pandas
+numpy
+nibabel
+matplotlib
+tensorflow==2.2.0
+pillow
+python-opencv
+sklearn
+plot-metric
