@@ -27,6 +27,8 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 from tensorflow.keras import backend as K
 
+from pylab import rcParams
+
 if __name__ == "__main__":
     raw_data = pd.read_csv('../metadata.csv')
     raw_data = raw_data.replace('../input/covid19-ct-scans/','../',regex=True)
