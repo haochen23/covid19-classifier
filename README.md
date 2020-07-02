@@ -20,3 +20,5 @@ Third, training the classifier.
 ```
 python3 train.py
 ```
+
+Code [demo](https://colab.research.google.com/drive/19-NaxPKGVcHALQuZ_htu1Y7Ws6lyMiey?usp=sharing).
