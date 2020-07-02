@@ -87,7 +87,7 @@ def read_nii(filepath, data, string):
     for img_no in range(0, array.shape[0]):
         if string == 'lungs' and np.unique(array[img_no]).size == 1:
             continue
-        img = cv2.resize(array[img_no], dsize=(img_size, img_size), interpolation=cv2.INTER_AREA)
+        img = cv2.resize(array[img_no], dsize=(512, 512), interpolation=cv2.INTER_AREA)
         # nomalize img
         xmax, xmin = img.max(), img.min()
         img = (img - xmin)/(xmax - xmin)
