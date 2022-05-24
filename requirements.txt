@@ -2,7 +2,7 @@ pandas
 numpy
 nibabel
 matplotlib
-tensorflow==2.2.0
+tensorflow==2.6.4
 pillow
 python-opencv
 sklearn
